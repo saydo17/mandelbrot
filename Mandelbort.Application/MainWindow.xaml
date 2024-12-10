@@ -1,0 +1,32 @@
+﻿<Window x:Class="Mandelbort.Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mandelbort.Application"
+        mc:Ignorable="d"
+        SizeToContent="Height"
+        Width="800"
+        Height="800"
+        Title="MainWindow" DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <DockPanel LastChildFill="True" >
+        <StackPanel DockPanel.Dock="Right" Width="250">
+            <TextBlock Text="CenterX"/>
+            <TextBox Text="{Binding CenterX}"/>
+            <TextBlock Text="CenterY"/>
+            <TextBox Text="{Binding CenterY}"/>
+            <TextBlock Text="Zoom"/>
+            <TextBox Text="{Binding Zoom}"/>
+
+            <TextBlock Text="Max Iterations"/>
+            <TextBox Text="{Binding MaxIterations, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button x:Name="DrawButton" Content="Draw" Click="OnDraw"/>
+            <Button x:Name="Save" Content="Save" Click="OnSave"/>
+        </StackPanel>
+        <Border Background="Black">
+            <Image x:Name="MandelbrotContainer" Stretch="Uniform" />
+        </Border>
+
+    </DockPanel>
+
+</Window>

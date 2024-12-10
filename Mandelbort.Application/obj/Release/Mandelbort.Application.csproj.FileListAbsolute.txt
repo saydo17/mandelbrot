@@ -1,0 +1,14 @@
+C:\Dev\Mandelbort\Mandelbort.Application\bin\Release\Mandelbort.Application.exe.config
+C:\Dev\Mandelbort\Mandelbort.Application\bin\Release\Mandelbort.Application.exe
+C:\Dev\Mandelbort\Mandelbort.Application\bin\Release\Mandelbort.Application.pdb
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\MainWindow.g.cs
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\App.g.cs
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application_MarkupCompile.cache
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application_MarkupCompile.lref
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\MainWindow.baml
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.g.resources
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.Properties.Resources.resources
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.csproj.GenerateResource.cache
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.csproj.CoreCompileInputs.cache
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.exe
+C:\Dev\Mandelbort\Mandelbort.Application\obj\Release\Mandelbort.Application.pdb
